@@ -1,0 +1,35 @@
+a, .about-me { font-family: 'Georgia', Times, serif; }
+.centered { 
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 40px;
+color: white;
+text-decoration:none;
+}
+.centered:hover { 
+color:white;
+text-decoration:underline;
+}
+.container-fluid {
+padding-left: 2.1%;
+padding-right: 2%;
+}
+.row {
+padding-left: 2%;
+padding-right: 2%;
+}
+.wordsBackground {
+background-color: blanchedalmond;
+position: absolute;
+top: 60%;
+left: 60%;
+transform: translate(-50%, -50%);
+}
+.words { 
+margin-top: 40px;
+margin-right: 80px;
+margin-left: 80px;
+margin-bottom: 40px;
+}
