@@ -9,7 +9,7 @@
     rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
     crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
+    <link href="html_pages/style.css" rel="stylesheet">
     
   </head>
 
@@ -18,8 +18,8 @@
     <script>
       // Change the main photo every 5 seconds
       var index = 0;
-      const images = ["../pics/s13_drift.jpg", "../pics/hanna_doubleexposed.jpg",
-      "../pics/e36_e9_film_rearquarter.jpg", "../pics/hanna_film_pacificabeach.JPG"];
+      const images = ["pics/s13_drift.jpg", "pics/hanna_doubleexposed.jpg",
+      "pics/e36_e9_film_rearquarter.jpg", "/pics/hanna_film_pacificabeach.JPG"];
       function change() {      
         document.getElementById("mainImage").src = images[index];
         if (index < 3) { ++index; }
@@ -38,8 +38,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="./about.html">About</a>
-            <a class="nav-link" href="./work.html">Work</a>
+            <a class="nav-link" href="html_pages/about.html">About</a>
+            <a class="nav-link" href="html_pages/work.html">Work</a>
           </div>
           <!-- End justify the contact links -->
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
