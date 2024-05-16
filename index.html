@@ -19,7 +19,7 @@
       // Change the main photo every 5 seconds
       var index = 0;
       const images = ["pics/s13_drift.jpg", "pics/hanna_doubleexposed.jpg",
-      "pics/e36_e9_film_rearquarter.jpg", "/pics/hanna_film_pacificabeach.JPG"];
+      "pics/e36_e9_film_rearquarter.jpg", "pics/hanna_film_pacificabeach.JPG"];
       function change() {      
         document.getElementById("mainImage").src = images[index];
         if (index < 3) { ++index; }
@@ -55,10 +55,18 @@
     </nav>
 
     <!-- The rotating picture in center screen, and the words -->
-    <img id = 'mainImage' src="../pics/hanna_doubleexposed.jpg" class="img-fluid">
-    <a class="centered" id="centerWords" href="./work.html">Cars. Portraits. Motorsport.</a>
+    <div id="app">
+      <img id = 'mainImage' src="pics/hanna_doubleexposed.jpg" class="img-fluid">
+      <a class="centered" id="centerWords" href="./work.html">Cars. Portraits. Motorsport.</a>
+    </div>
+    <!-- <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/jsx">
+      const app = document.getElementById('centerWords');
+      ReactDOM.render(<h1>. Preview. Ship. 🚀</h1>, app);
+    </script> -->
 
-    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
     integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
     crossorigin="anonymous"></script>
