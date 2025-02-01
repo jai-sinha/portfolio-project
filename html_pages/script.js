@@ -2,9 +2,10 @@ const col1 = [
 	{ src: "../pics/z_drifting.jpg", alt: "350 and 370zs drifting" },
 	{ src: "../pics/s13_drift.jpg", alt: "s13 drifting" },
 	{ src: "../pics/e36_vertical_woods.jpg", alt: "e36 in woods vertical, really wanted this to make the @bmwclassic instagram but they were hating"},
-	{ src: "../pics/ryan_shadow.jpg", alt: "ryan's shadow"},
 	{ src: "../pics/hanna_doubleexposed.jpg", alt: "double-exposed, an accident actually"},
-	{ src: "../pics/nsx_interior.jpg", alt: "interior of nsx... need"}
+	{ src: "../pics/nsx_interior.jpg", alt: "interior of nsx... need"},
+	{ src: "../pics/e36_e9_film_rearquarter.jpg", alt: "e36 ltw and e9 batmobile" },
+	{ src: "../pics/yosemite_falls_vert.jpg", alt: "waterfall in yosemite, super green water" }
 ];
 
 const col2 = [
@@ -13,7 +14,8 @@ const col2 = [
 	{ src: "../pics/e90_legion_edited.jpg", alt: "edited out half the background, e90 m3"},
 	{ src: "../pics/e36_e9_mercedes_film.jpg", alt: "old german sports cars, monterey" },
 	{ src: "../pics/rsspyder_film_frontquarter.jpg", alt: "favorite race car ever, porsche rs spyder" },
-	{ src: "../pics/e36_frontquarter_leaves.jpg", alt: "e36 in some fall leaves" }
+	{ src: "../pics/singer_vert.jpg", alt: "singer 911 rear end" },
+	{ src: "../pics/yosemite_gray.jpg", alt: "yosemite on film, looks b/w but not!" }
 ];
 
 const col3 = [
@@ -22,7 +24,9 @@ const col3 = [
 	{ src: "../pics/rsspyder_film_jetwing.jpg", alt: "wings on wings" },
 	{ src: "../pics/cayman_interior.jpg", alt: "interior of cayman s... peep the carpet" },
 	{ src: "../pics/e9_film_vertical_frontquarter.jpg", alt: "e9 'batmobile' front quarter" },
-	{ src: "../pics/e36_film_rearquarter_legion.jpg", alt: "e36 rear quarter view" }
+	{ src: "../pics/e36_film_rearquarter_legion.jpg", alt: "e36 rear quarter view" },
+	{ src: "../pics/amg_shiny.jpg", alt: "super shiny amg gt logo" },
+	{ src: "../pics/ltw_rearquarter.jpg", alt: "e36 ltw rear quarter view" }
 ];
 
 const photos = new Map([
